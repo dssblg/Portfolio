@@ -1,0 +1,101 @@
+/*body {
+    background-color: #270000; 
+    color: #F4BCB1;
+    font-family: 'Montserrat';
+    scroll-behavior: smooth;
+    background-image: url('../testfond.mp4');
+}
+h1 ,title {
+    background-color: #270000;
+    text-align: center;
+    color: #88463E;
+    font-weight: bold;
+    border-radius : 8px;
+}
+p{
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+.sommaire{
+    display :flex;
+    background-color: #270000;
+}
+button{
+
+    justify-content: center;
+    font-weight: bold;
+    gap: 20px;
+    margin-top: auto;
+    text-align: center;
+    border : none;
+    border-radius : 8px;
+    background-color: #E98B7C;
+    color : #88463E;
+}
+section{
+    display :flex;
+    gap:20px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 16px;
+    font-family: 'sans-serif';
+    border-radius : 8px;
+    background-color: #88463E;
+    color : #F4BCB1;
+}
+.un {
+    color: #48513A;
+}
+
+.deux{
+    color: #767865;
+}
+
+.trois{
+    color: #A49F90;
+}
+
+.quatre{
+    color: #E98B7C;
+}
+
+.cinq{
+    color: #B9695D;
+}
+.six{
+    color: #88463E;
+}
+.sept{
+    color: #6E3939;
+}
+.huit{
+    color: #FFEDE6;
+}
+a {
+    color:#F4BCB1;
+}
+
+/*
+#270000; fond
+#F4BCB1;texte principal /liens /hover
+#FFEDE6; titres
+#A49F90; sous titre
+#E98B7C; boutons
+#88463E; fond plus petit 
+*/ 
+
+/*
+| Rôle                  | Couleur           | Code HEX  | Usage recommandé         |
+| --------------------- | ----------------- | --------- | ------------------------ |
+| 🔵 Couleur principale | Bleu marine       | `#1A2942` | Fond, titres             |
+| ⚪ Neutre clair        | Blanc cassé       | `#FAFAFA` | Texte, fonds secondaires |
+| 🧡 Accent vif         | Corail doux       | `#FF6F61` | Boutons, CTA             |
+| 🟡 Touche lumineuse   | Jaune moutarde    | `#FFDB58` | Hover, icônes            |
+| 🔘 Froid doux         | Gris bleuté clair | `#DCE3EB` | Arrière-plans, encadrés  |
+*/
+
+body {
+    background-color: black; 
+    color: rgb(116, 108, 108);
+    font-family: 'Montserrat';
+}
