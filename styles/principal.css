@@ -1,10 +1,36 @@
-/*body {
-    background-color: #270000; 
-    color: #F4BCB1;
-    font-family: 'Montserrat';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #270000;
+    color: #dfc7c7;
+    font-family: Georgia, serif;
+    line-height: 1.3;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+a {
+    color : white;
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+    font-family: 'Merriweather', serif; pareil
+    font-family: 'Montserrat', sans-serif; professionnel mais basic de fou 
+    font-family: cursive; tres tres classe
+    font-family: Georgia, serif; plutot classe et professionnel
+color: #F4BCB1;
+
+    
     scroll-behavior: smooth;
     background-image: url('../testfond.mp4');
-}
 h1 ,title {
     background-color: #270000;
     text-align: center;
@@ -92,10 +118,10 @@ a {
 | 🧡 Accent vif         | Corail doux       | `#FF6F61` | Boutons, CTA             |
 | 🟡 Touche lumineuse   | Jaune moutarde    | `#FFDB58` | Hover, icônes            |
 | 🔘 Froid doux         | Gris bleuté clair | `#DCE3EB` | Arrière-plans, encadrés  |
-*/
-
 body {
     background-color: black; 
     color: rgb(116, 108, 108);
     font-family: 'Montserrat';
 }
+*/
+
