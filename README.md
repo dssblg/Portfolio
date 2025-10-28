@@ -24,12 +24,8 @@ Créer un portfolio à la fois **professionnel, interactif et immersif**, permet
 
 3. ** Section projets détaillée**
    - Présentation visuelle des projets (image + titre + technologies).
-   - Survol de l’image → aperçu du projet et des langages utilisés.
-   - Pour chaque projet :  
-     - Processus de conception.  
-     - Défis rencontrés.  
-     - Solutions apportées.  
-     - Lien GitHub / Démo.
+   - Survol de l’image, aperçu du projet et des langages utilisés.
+
 
 4. ** Formulaire de contact**
    - Envoi direct d’un message ou d’une demande via e-mail.
@@ -43,23 +39,18 @@ Créer un portfolio à la fois **professionnel, interactif et immersif**, permet
 ##  Améliorations visuelles et d’expérience 
 
 6. ** Page de chargement animée**
-   - Animation fluide avant l’affichage du contenu principal.
-   - Intégration du nom ou du logo “Donia Belgherbi”.
+   - Intégration du titre par lettre.
 
 7. ** Changement de langue**
    - Interface disponible en **français** et **anglais** (voire plus tard).
 
 8. ** Image ou animation de fond dynamique**
-   - Fond en mouvement lent ou effet de particules / vague douce.
+   - Fond en mouvement lent .
 
-9. ** Animation de texte**
-   - Effet d’écriture fluide pour les titres (“BELGHERBI DONIA”).
 
 10. ** Menu latéral (sidebar)**
     - Accès rapide aux sections du portfolio (About, Skills, Projects, Contact).
 
-11. ** Effets sonores légers**
-    - Sons subtils au clic ou lors du survol (désactivables).
 
 
 
@@ -86,7 +77,6 @@ Un portfolio fluide, immersif et intuitif qui reflète :
 ##  Contact
 - **Email :** [belgherbid07@gmail.com](mailto:belgherbid07@gmail.com)  
 - **GitHub :** [https://github.com/dssblg](https://github.com/dssblg)  
-- **LinkedIn :** *(à ajouter)*
 
 
 
