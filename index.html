@@ -1,19 +1,23 @@
 <!DOCTYPE html> 
-<html xhtml="http://www.w3.org/1999/xhtml" lang ="fr"> 
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
     <head>
-       <meta charset="UTF-8"/>
-       <meta name="viewport" content="width=device-width ,initial-scale=1.0"/>
-       <meta name="author" content="Donia Belgherbi"/>
-       <title>BELGHERBI Donia</title>
-       <link rel="stylesheet" type = "text/css" href="./styles/principal.css"/>
-       <script src="./js/portfoliojs.js" defer></script>
-       <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Merriweather&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <meta name="author" content="Donia Belgherbi">
+        <title>BELGHERBI Donia</title>
+        <link rel="stylesheet" type = "text/css" href="./styles/principal.css">
+
+        <script src="./js/three.r134.min.js" defer></script>
+        <script src="./js/vanta.net.min.js" defer></script>
+        <script src="./js/vantafond.js" defer></script>
+        <script src="./js/portfoliojs.js" defer></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Merriweather&display=swap" rel="stylesheet">
 
     </head>
     <body>
         <header>
-            <h3> Portefeuille de compétences</h3>
-            <h3> BELGHERBI Donia</h3>    
+            <h1 id="title1"></h1>  
             <nav class ="sommaire">
                 <ul>
                     <li><a href ="#about">À propos</a></li>
@@ -25,7 +29,7 @@
         </header>
 
         <section id="about">
-            <h3>À propos de moi</h3>
+            <h2>À propos de moi</h2>
             <p>Hello world,<br>
                 et bienvenue sur mon portfolio.<br>
                 Je suis BELGHERBI Donia, étudiante en troisième année de licence informatique et actuellement à la recherche d'un stage de fin d'études.<br>
@@ -41,32 +45,189 @@
         </section>
         
         <section id="skills">
-            <h3>Competences</h3>
-            <p>Listes des languages que je connais et que j'utilise, les logiciels et les outils</p>    
+        <h2>Compétences</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Voici les langages, outils et technologies que j’utilise régulièrement.</p>
+
+        <div class="skills-container">
+
+            <div class="skill-category">
+            <h3>Langages</h3>
+            <div class="skills-grid">
+                <div class="skill-block"><img src="./images/Python.gif" alt="Python"><span>Python</span></div>
+                <div class="skill-block"><img src="./images/Java.gif" alt="Java"><span>Java</span></div>
+                <div class="skill-block"><img src="./images/Javascript.gif" alt="JavaScript"><span>JavaScript</span></div>
+                <div class="skill-block"><img src="./images/Php.png" alt="PHP"><span>PHP</span></div>
+                <div class="skill-block"><img src="./images/C.png" alt="C"><span>C</span></div>
+                <div class="skill-block"><img src="./images/Sql.png" alt="SQL"><span>SQL</span></div>
+            </div>
+            </div>
+
+            <div class="skill-category">
             <h3>Front-end</h3>
-            <p>HTML5, CSS3, JavaScript, React.js</p>
+            <div class="skills-grid">
+                <div class="skill-block"><img src="./images/Html5.png" alt="HTML5"><span>HTML5</span></div>
+                <div class="skill-block"><img src="./images/CSS.png" alt="CSS3"><span>CSS3</span></div>
+                <div class="skill-block"><img src="./images/React.gif" alt="React.js"><span>React.js</span></div>
+            </div>
+            </div>
+
+            <div class="skill-category">
             <h3>Back-end</h3>
-            <p>Node.js, Python (Flask / Django), PHP (base), MySQL / PostgreSQL, Git / GitHub</p>
+            <div class="skills-grid">
+                <div class="skill-block"><img src="./images/Node.png" alt="Node.js"><span>Node.js</span></div>
+                <div class="skill-block"><img src="./images/Php.png" alt="PHP"><span>PHP</span></div>
+                <div class="skill-block"><img src="./images/Mysql.png" alt="MySQL"><span>MySQL</span></div>
+                <div class="skill-block"><img src="./images/Postgresql.png" alt="PostgreSQL"><span>PostgreSQL</span></div>
+            </div>
+            </div>
+
+            <div class="skill-category">
+            <h3>Systèmes d’exploitation</h3>
+            <div class="skills-grid">
+                <div class="skill-block"><img src="./images/Linux.png" alt="Linux"><span>Linux</span></div>
+                <div class="skill-block"><img src="./images/Mac-os.gif" alt="Mac OS"><span>Mac OS</span></div>
+            </div>
+            </div>
+
+            <div class="skill-category">
+            <h3>Outils</h3>
+            <div class="skills-grid">
+                <div class="skill-block"><img src="./images/Github.png" alt="GitHub"><span>GitHub</span></div>
+                <div class="skill-block"><img src="./images/Gitlab.png" alt="GitLab"><span>GitLab</span></div>
+                <div class="skill-block"><img src="./images/Visual-studio-code.png" alt="VS Code"><span>VS Code</span></div>
+            </div>
+            </div>
+
+        </div>
         </section>
+
+
 
         <section id="projects">
-            <p>Mes projets</p>
-            <script src="../portolio/TicTacToe/tic tac toe(fini).py"></script>
-            <script src="../portolio/jeu421/jeu_421.py"></script>
-            <script src="../portolio/ProjetCalbuthPASFini/fonction_couleurs_finis.py"></script>
-        </section>
+        <h2>Projets</h2>
 
-        <section id="contact">
-            <h3>Me contacter</h3>
-            <a href="mailto:belgherbid07@gmail.com">Adresse mail : </a>
-            <a href="https://github.com/dssblg" target="_blank">Accéder à mon GitHub : </a>
-            <a href="../portolio/BELGHERBI Donia.pdf" target="_blank">Télécharger mon CV : </a>
-            <a href="https://wa.me/33605550936" target="_blank">Whatsapp : </a>
-            <p class = "formulairecontact">Formulaire de contact : </p>
-        </section>
+        <div class="project project-left">
+        <video playsinline autoplay muted loop width="400">
+            <source src="./Projets/Ares.mov" type="video/mp4">
+                Votre navigateur ne supporte pas la vidéo.
+        </video>
+            <div class="project-content">
+            <h3>ARES/DEMETER</h3>
+            <p>
+                ARES/DEMETER sont deux projets de jeu de plateau développé en équipe. 
+                Chaque jeu est constitué d’un plateau divisé en tuiles représentant des ressources 
+                (forêts, montagnes, pâturages, champs, mer), avec des bâtiments pouvant être déployés. 
+                Les joueurs collectent des ressources et réalisent des actions stratégiques à chaque tour. 
+                Le projet est conçu pour être extensible afin d'ajouter facilement de nouvelles fonctionnalités.
+            </p>
+            <p><strong>Technologies :</strong> Java, Git, Modélisation objet</p>
+            <p><strong>Fonctionnalités :</strong></p>
+            <ul>
+                <li>Modélisation du plateau et des ressources</li>
+                <li>Gestion des bâtiments et de leur dimension</li>
+                <li>Système de collecte et d’échange de ressources</li>
+                <li>Déroulement du jeu basé sur des tours et actions limitées</li>
+                <li>Extensible pour intégrer de nouvelles règles ou îles</li>
+            </ul>
+            <a href="https://github.com/dssblg/ares-demeter" target="_blank">Voir le projet sur GitHub</a>
+            </div>
+        </div>
 
-        <footer> 
-            <p> &copy; 2025 Donia</p>
-        </footer>
+        <div class="project project-right">
+            <video playsinline autoplay muted loop width="400">
+                <source src="./Projets/Soucoupe.mov" type="video/mp4">
+                Votre navigateur ne supporte pas la vidéo.
+            </video>
+            <div class="project-content">
+                <h3>StarShip Game</h3>
+                <p>Jeu vidéo simple où le joueur contrôle un vaisseau verticalement et doit détruire des soucoupes volantes avant qu'elles ne passent.</p>
+                <p><strong>Technologies :</strong> JavaScript, HTML5, Canvas</p>
+                <p><strong>Fonctionnalités :</strong></p>
+                <ul>
+                <li>Déplacement du vaisseau avec le clavier</li>
+                <li>Soucis volantes aléatoires à détruire</li>
+                <li>Gestion du score</li>
+                </ul>
+                <a href="https://github.com/dssblg/StarShipGame" target="_blank">Voir le projet sur GitHub</a>
+            </div>
+        </div>
+
+        <div class="project project-left">
+        <div class="project-image">
+            <video playsinline autoplay muted loop width="400">
+            <source src="./Projets/taskReact.mov" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+            </video>
+        </div>
+        <div class="project-content">
+            <h3>Task Manager App</h3>
+            <p>
+            Application de gestion de tâches avec attribution de priorité. Les tâches peuvent être distinguées entre celles à réaliser et celles déjà terminées.
+            </p>
+            <p><strong>Technologies :</strong> React.js, JavaScript, CSS</p>
+            <p><strong>Fonctionnalités :</strong></p>
+            <ul>
+            <li>Affichage des tâches par ordre de priorité décroissante</li>
+            <li>Ajout de nouvelles tâches avec priorité personnalisée</li>
+            <li>Gestion des tâches terminées et à réaliser</li>
+            <li>Optionnelle : sauvegarde locale avec LocalStorage</li>
+            </ul>
+            <a href="https://github.com/tonpseudo/TaskManagerApp" target="_blank">Voir le projet sur GitHub</a>
+        </div>
+        </div>
+</section>  
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N’hésite pas à me contacter pour toute question.</p>
+
+  <div class="contact-formulaire">
+    <form action="https://formspree.io/f/mvgvkdlw" method="POST" class="contact-form">
+      <label for="name">Nom</label>
+      <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>Mes coordonnées</h3>
+      <p><strong>Email :</strong> belgherbid07@gmail.com</p>
+      <p><strong>Localisation :</strong> Lille, France</p>
+
+      <div class="socials">
+        <p><a href="https://wa.me/33605550936" target="_blank" rel="noopener">  <img src="./images/Whatsapp.gif" alt="Contactez-moi sur WhatsApp" width="40">Contactez-moi sur WhatsApp</a></p>
+        <p><a href="https://github.com/dssblg" target="_blank"><img src="./images/Github.png" alt="Lien vers mon GitHub" width="40">Lien vers mon GitHub</a></p>
+        <p><a href="https://www.linkedin.com/in/donia-b-a307a4378/" target="_blank"><img src="./images/Linkedin.png" alt="Contactez-moi sur LinkedIn" width="40">Contactez-moi sur LinkedIn</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <footer> 
+        <p> &copy; 2025 Donia</p>
+    </footer>
+
+    <div class="theme-buttons">
+        <button id="light">Clair</button>
+        <button id="dark">Foncé</button>
+        <button id="mix">Mix</button>
+    </div>
+
+    
+<button id="scroll-top">↑</button>
+<div id="scroll-progress"></div>
+
     </body>
+
+
+
+
 </html>
