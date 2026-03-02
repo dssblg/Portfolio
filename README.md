@@ -4,15 +4,6 @@ Bienvenue sur mon portfolio personnel, un espace conçu pour présenter mes comp
 Ce projet est en constante évolution afin d'allier **design**, **fonctionnalité** et **expérience utilisateur fluide**.
 
 
-
-##  Objectif du site
-Créer un portfolio à la fois **professionnel, interactif et immersif**, permettant de :
-- Valoriser mes compétences techniques et mes réalisations.
-- Présenter mon approche du développement.
-- Offrir une expérience utilisateur agréable sur tous les supports.
-
-
-
 ##  Fonctionnalités principales 
 
 1. ** Présentation claire de mon profil**
@@ -81,4 +72,4 @@ Un portfolio fluide, immersif et intuitif qui reflète :
 
 
 ##  Dernière mise à jour
-Octobre 2025  
+Mars 2026 
