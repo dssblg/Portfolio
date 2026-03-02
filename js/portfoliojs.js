@@ -18,6 +18,7 @@ function setMixMode() {
   location.reload();
 }
 
+
 const text = "PORTEFEUILLE DE COMPÉTENCES - BELGHERBI DONIA";
 let i = 0;
 const el = document.getElementById("title1");
