@@ -1,5 +1,5 @@
 VANTA.NET({
-  el: document.body,
+  el: "#vanta-bg",
   mouseControls: true,
   touchControls: true,
   gyroControls: true,
