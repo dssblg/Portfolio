@@ -247,6 +247,9 @@ p {
     color: var(--bordeaux-dark);
     box-shadow: 0 0 15px rgba(var(--accent-rgb),0.3 ), 0 0 45px rgba(var(--accent-rgb), 0.6);
 }
+.project-content {
+    flex: 1;
+}
 
 
 
