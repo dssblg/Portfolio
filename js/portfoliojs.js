@@ -1,21 +1,45 @@
 function setLightMode() {
-  const all = document.querySelectorAll('*');
-  all.forEach(el => {
-    el.style.backgroundColor = '#dfc7c7';
-    el.style.color = '#270000';
-  });
+  const element = document.body
+  element.classList.add('light-mode');
+  vantaEffet.destroy();
+  vantaEffet = VANTA.NET({
+    color: 0x8B5CF6, //--accent,
+    backgroundColor: 0xF8F5FF, //--bordeaux,
+    lineColors: 0xD946EF,
+    el: "#vanta-bg",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    points: 15.00,
+    maxDistance: 40.00,
+    spacing: 20.00,
+  })
 }
 
 function setDarkMode() {
-  const all = document.querySelectorAll('*');
-  all.forEach(el => {
-    el.style.backgroundColor = '#270000';
-    el.style.color = '#dfc7c7';
-  });
-}
-
-function setMixMode() {
-  location.reload();
+  const element = document.body
+  element.classList.remove('light-mode');
+  vantaEffet.destroy();
+  vantaEffet = VANTA.NET({
+    color: 0xB983FF, //--accent,
+    backgroundColor: 0x1A1025, //--bordeaux,
+    lineColors: 0xFF6EC7,
+    el: "#vanta-bg",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    points: 15.00,
+    maxDistance: 40.00,
+    spacing: 20.00,
+  })
 }
 
 
@@ -51,4 +75,3 @@ btn.addEventListener('click', () => {
 typeWriter();
 document.getElementById('light').addEventListener('click', setLightMode);
 document.getElementById('dark').addEventListener('click', setDarkMode);
-document.getElementById('mix').addEventListener('click', setMixMode);
