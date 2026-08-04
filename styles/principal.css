@@ -433,30 +433,65 @@ p {
         bottom: 10px;
     }
      
-section {
-    width: 100%;
-    padding: 140px 20px 90px;
-}
- 
-.sommaire {
-    top: 80px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: calc(100% - 40px);
-    max-width: 320px;
-    padding: 15px;
-}
- 
-.sommaire ul {
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 10px;
-}
- 
-.sommaire a {
-    font-size: 0.65rem;
-}
-}
+    section {
+        width: 100%;
+        padding: 140px 20px 90px;
+    }
+    
+    .sommaire ul {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 10px;
+    }
+    
+    .sommaire a {
+        font-size: 0.65rem;
+    }
+    .theme-buttons {
+    flex-direction: column;
+    left: 20px;
+    bottom: 20px;
+    transform: none;
+    }
+    
+    header h1 {
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.4;
+        padding: 0 10px;
+    }
+    
+    header {
+        height: 90px;
+        padding: 8px 10%;
+    }
+    
+    header h1 {
+        font-size: 0.85rem;
+        text-align: center;
+        line-height: 1.3;
+        padding: 0 10px;
+    }
+    
+    .sommaire {
+        top: 98px;
+        padding: 8px 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: calc(100% - 40px);
+        max-width: 320px;
+    }
+    
+    .sommaire ul {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 6px;
+    }
+    
+    .sommaire a {
+        font-size: 0.6rem;
+    }
+} 
 img, video {
     max-width: 100%;
     height: auto;
@@ -474,8 +509,8 @@ p {
 .skill-category,
 .project,
 #about p {
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background:  var(--glass);
+    border: 1px solid rgba(var(--accent-rgb), 0.08);
     backdrop-filter: blur(15px);
     box-shadow: 0 20px 60px rgba(0,0,0,0.5);
 }
@@ -543,7 +578,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
 }
 
 .project-category {
@@ -582,4 +617,10 @@ body {
 .project:hover .project-screenshot {
     transform: scale(1.03);
     box-shadow: 0 0 35px rgba(var(--accent-rgb), 0.3), 0 0 45px rgba(var(--accent-rgb), 0.6);
+}
+
+section,
+footer {
+    position: relative;
+    z-index: 1;
 }

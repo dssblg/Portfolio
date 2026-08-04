@@ -75,3 +75,15 @@ btn.addEventListener('click', () => {
 typeWriter();
 document.getElementById('light').addEventListener('click', setLightMode);
 document.getElementById('dark').addEventListener('click', setDarkMode);
+
+document.querySelectorAll('*').forEach(el => {
+  if (el.offsetWidth > document.documentElement.clientWidth) {
+    console.log(el, 'largeur =', el.offsetWidth, 'px | viewport =', document.documentElement.clientWidth, 'px');
+  }
+});
+
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    window.dispatchEvent(new Event('resize'));
+  }, 300);
+});
