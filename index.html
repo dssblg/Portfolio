@@ -129,7 +129,52 @@
 
         <section id="projects">
         <h2>Projets</h2>
-
+        <div class="project-category">
+            <span class="category-label">% cybersécurité</span>
+        </div>
+        
+        <div class="project project-left">
+            <img src="./Projets/honeypot-screen.png" alt="Capture terminal du honeypot en fonctionnement" class="project-screenshot">
+            <div class="project-content">
+                <h3>Honeypot-attack-observatory</h3>
+                <p>
+                    Honeypot TCP simulant un objet IoT vulnérable par exemple : caméra de surveillance IP connectée, une serrure intelligente connectée, une ampoule connectée, une prise électrique intelligente, un thermostat connecté, une montre connectée, et encore beaucoup d'autres objets de notre quotidien, pour observer en direct
+                    de vraies tentatives d'intrusion. Déployé en continu sur une VM cloud, il capture chaque
+                    session dans des logs structurés exploitables pour de l'analyse d'attaque.
+                </p>
+                <p><strong>Technologies :</strong> Python, Telnet, Oracle Cloud, JSON Lines</p>
+                <p><strong>Fonctionnalités :</strong></p>
+                <ul>
+                    <li>Simulation d'un service Telnet exposé (port 2323) (et port 23 par déviation)</li>
+                    <li>Logger dédié — chaque session capturée en JSON Lines</li>
+                    <li>Déploiement continu sur VM Oracle Cloud (ARM)</li>
+                </ul>
+                <a href="https://github.com/dssblg/honeypot-attack-observatory" target="_blank">Voir le projet sur GitHub</a>
+            </div>
+        </div>
+        
+        <div class="project project-right">
+            <img src="./Projets/scanner-screen.png" alt="Capture terminal du scanner détectant des buckets exposés" class="project-screenshot">
+            <div class="project-content">
+                <h3>cloud-exposure-scanner</h3>
+                <p>
+                    Scanner détectant des buckets AWS S3 mal configurés (lecture, écriture ou listing publics)
+                    en simulant un attaquant externe, sans SDK AWS uniquement des requêtes HTTP non authentifiées.
+                </p>
+                <p><strong>Technologies :</strong> Python, AWS S3, HTTP, JSON</p>
+                <p><strong>Fonctionnalités :</strong></p>
+                <ul>
+                    <li>Classes BucketScanner et ReportWriter, rapports au format .jsonl</li>
+                    <li>Sévérité classée via un enum, configuration multi-buckets en JSON</li>
+                    <li>Gestion des timeouts et des erreurs réseau</li>
+                </ul>
+                <a href="https://github.com/dssblg/cloud-exposure-scanner" target="_blank">Voir le projet sur GitHub</a>
+            </div>
+        </div>
+        
+        <div class="project-category">
+            <span class="category-label">% dev</span>
+        </div>
         <div class="project project-left">
         <video playsinline autoplay muted loop width="400">
             <source src="./Projets/Ares.mov" type="video/mp4">

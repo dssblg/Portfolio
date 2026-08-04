@@ -520,3 +520,41 @@ body {
     height: 100%;
     z-index: -1;
 }
+
+.project-category {
+    margin: 60px 0 30px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+ 
+.category-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--accent-light);
+    white-space: nowrap;
+}
+ 
+.project-category::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(var(--accent-rgb), 0.2);
+}
+
+ 
+.project-screenshot {
+    width: 450px;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6);
+    transition: transform 0.4s ease;
+    object-fit: cover;
+}
+ 
+.project:hover .project-screenshot {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgba(var(--accent-rgb), 0.3), 0 0 45px rgba(var(--accent-rgb), 0.6);
+}
