@@ -376,6 +376,7 @@ p {
     .project video {
         width: 100%;
     }
+    
 }
 
 
@@ -431,6 +432,30 @@ p {
         left: 10px;
         bottom: 10px;
     }
+     
+section {
+    width: 100%;
+    padding: 140px 20px 90px;
+}
+ 
+.sommaire {
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    max-width: 320px;
+    padding: 15px;
+}
+ 
+.sommaire ul {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+ 
+.sommaire a {
+    font-size: 0.65rem;
+}
 }
 img, video {
     max-width: 100%;
