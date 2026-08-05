@@ -1,7 +1,8 @@
 #  Portfolio — Donia Belgherbi
 
-Bienvenue sur mon portfolio personnel, un espace conçu pour présenter mes compétences, mes projets et ma vision du développement web.  
-Ce projet est en constante évolution afin d'allier **design**, **fonctionnalité** et **expérience utilisateur fluide**.
+Bienvenue sur mon portfolio personnel, ma carte de visite en ligne. Il reflète mon identité visuelle, ma rigueur technique et mon souci du détail. Chaque amélioration est pensée pour offrir une expérience fluide et mémorable au visiteur.
+
+
 
 
 ##  Fonctionnalités principales 
@@ -17,7 +18,6 @@ Ce projet est en constante évolution afin d'allier **design**, **fonctionnalit�
    - Présentation visuelle des projets (image + titre + technologies).
    - Survol de l’image, aperçu du projet et des langages utilisés.
 
-
 4. ** Formulaire de contact**
    - Envoi direct d’un message ou d’une demande via e-mail.
    - Ajout d’un lien vers **LinkedIn**.
@@ -25,43 +25,25 @@ Ce projet est en constante évolution afin d'allier **design**, **fonctionnalit�
 5. ** Mode clair / sombre (Dark / Light mode)**
    - Basculer entre deux ambiances selon les préférences de l’utilisateur.
 
-
-
-##  Améliorations visuelles et d’expérience 
-
-6. ** Page de chargement animée**
-   - Intégration du titre par lettre.
-
-7. ** Changement de langue**
-   - Interface disponible en **français** et **anglais** (voire plus tard).
-
-8. ** Image ou animation de fond dynamique**
+6. ** Image ou animation de fond dynamique**
    - Fond en mouvement lent .
 
-
-10. ** Menu latéral (sidebar)**
+7. ** Menu latéral (sidebar)**
     - Accès rapide aux sections du portfolio (About, Skills, Projects, Contact).
 
 
 
 
-##  Stack technique envisagée
+##  Stack technique
 
 | Domaine | Technologies |
 |----------|---------------|
-| **Front-end** | HTML5, CSS3, JavaScript (vanilla ou React.js) |
-| **Back-end** | (Optionnel) Node.js / Express |
+| **Front-end** | HTML5, CSS3, JavaScript (vanilla) |
+| **Design & Animations** | Three.js, Vanta.js (VANTA.NET) |
+| **Formulaire de contact** | Formspree |
+| **Polices** | Google Fonts (Space Grotesk, Poppins, JetBrains Mono, Montserrat, Merriweather) |
 | **Versioning** | Git & GitHub |
-| **Design & Animations** | CSS animations, GSAP, ou Three.js |
-| **Formulaire de contact** | EmailJS / PHP mailer |
 
-
-
-##  Objectif final
-Un portfolio fluide, immersif et intuitif qui reflète :
-- Mon **identité visuelle** et ma **créativité**.  
-- Ma **capacité à concevoir** et **structurer** un projet complet.  
-- Mon **sérieux professionnel** et mon **attention au détail**.
 
 
 
@@ -72,4 +54,4 @@ Un portfolio fluide, immersif et intuitif qui reflète :
 
 
 ##  Dernière mise à jour
-Mars 2026 
+Août 2026 
